@@ -81,17 +81,17 @@ Open a Pull Request ✅
 
 If you’re new to open source, feel free to ask questions. I’d be happy to help!
 
-##🧠 Limitations
+## 🧠 Limitations
 This is an early version (MVP) — built in just 1 day
 
 May miss edge cases or very specific queries
 
 All answers are limited to what’s written in official docs
 
-##💬 Feedback
+## 💬 Feedback
 Spotted a bug? Have a suggestion? Open an Issue or send me a message.
 
-##🤍 Built by Shagun Gupta
+## 🤍 Built by Shagun Gupta
 I made this for students just like you and me .
 Please share it with your friends, and feel free to contribute!
 
