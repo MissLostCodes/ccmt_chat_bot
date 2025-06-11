@@ -245,7 +245,7 @@ rag_chain = {"context": retriever | format_docs , "question": RunnablePassthroug
 # ## Streamlit UI
 # 
 
-# In[62]:
+# In[64]:
 
 
 # Set page config at the very beginning
@@ -271,29 +271,69 @@ with open(COUNT_FILE, "r") as f:
     total_users = stars.count("*")
 
 # ----------- Main Chatbot UI ------------------------
-st.title("🎓 CCMT Counselling Chatbot")
-st.markdown("Ask anything about CCMT rules, rounds, fees, etc...")
 
-# Background styling (optional)
+
 st.markdown(
     """
-    <style>
-    .stApp {
-        background-image: linear-gradient(135deg, #1f1c2c, #928dab);
-        color: white;
-    }
-    </style>
+   <style>
+/* App background and text */
+.stApp {
+    background: linear-gradient(135deg, #141e30, #243b55);  /* deep dark gradient */
+    color: white !important;
+}
+
+/* Title and all markdown text */
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: white !important;
+}
+
+/* Input box style */
+.stTextInput > div > div > input {
+    background-color: #2c3e50;
+    color: white;
+    border: 1px solid #ffffff33;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+/* Button style */
+.stButton > button {
+    background-color: #00cec9;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 1.2em;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #81ecec;
+    color: black;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+section[data-testid="stSidebar"] p {
+    color: white;
+}
     """,
     unsafe_allow_html=True
 )
 
-# Show unique user visits in the sidebar
+st.title("🎓 CCMT Counselling Chatbot")
+st.markdown("Ask anything about CCMT rules, rounds, fees, etc...")
+
+# Sidebar content
 st.sidebar.markdown(f"🌟 **Unique Visits:** {total_users}")
 
-# User Query Input
+# Input section
 query = st.text_input("💬 Ask your question:")
 
-# Submit button
+# Button and response
 if st.button("Get Answer"):
     if query.strip():
         with st.spinner("Thinking..."):
@@ -302,6 +342,7 @@ if st.button("Get Answer"):
             st.write(result)
     else:
         st.warning("Please enter a question first.")
+
 
 
 # In[ ]:
