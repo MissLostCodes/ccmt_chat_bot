@@ -37,8 +37,8 @@ You're not alone — and that's why I built this free chatbot 💬
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/MissLostCodes/ccmt-chatbot.git
-cd ccmt-chatbot
+git clone https://github.com/MissLostCodes/ccmt_chat_bot.git
+cd ccmt_chatbot
 
 ## 📦 Install Requirements
 
