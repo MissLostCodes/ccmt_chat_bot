@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+pinecone-client
+opentelemetry-api
+opentelemetry-sdk
+protobuf==3.20.*
+python-dotenv
+pypdf
+streamlit-analytics
+langchain-google-genai
+PyPDF2
+numpy<2.0
+langchain-pinecone
