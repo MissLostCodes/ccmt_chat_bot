@@ -36,7 +36,7 @@ You're not alone — and that's why I built this free chatbot 💬
 
 ### 1. Clone the Repo
 
-```bash
+
 git clone https://github.com/MissLostCodes/ccmt_chat_bot.git
 cd ccmt_chatbot
 
@@ -55,7 +55,7 @@ PINECONE_CLOUD=....from your pinecone index
 streamlit run app.py
 
 
-##🛠 Contributing
+## 🛠 Contributing
 I'd love your help to make this chatbot better! You can:
 
 Add more data sources
