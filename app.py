@@ -46,7 +46,7 @@ PINECONE_INDEX_NAME = "index1"
 # Load all PDFs
 brochure_docs = PyPDFLoader("ccmt_info.pdf").load()
 flowchart_docs = PyPDFLoader("ccmt_flowcharts_2.pdf").load()
-fee_docs = PyPDFLoader("fee_table2.pdf").load()
+fee_docs = PyPDFLoader("fee_table3.pdf").load()
 
 # Add metadata (tags)
 for doc in fee_docs:
