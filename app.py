@@ -214,6 +214,7 @@ Answer the question based on the above context: {question}.
 Provide a detailed answer.
 Don’t justify your answers.
 Do not say "according to the context" or "mentioned in the context" or similar.
+If user asks about dates or "when" then refer to the timeline and schedule of ccmt 2025
 """
 
 prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
