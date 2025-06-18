@@ -174,7 +174,7 @@ index_name = PINECONE_INDEX_NAME
 # In[56]:
 
 
-namespace = "wondervector5000"
+namespace = "wondervector6000"
 
 vectordb = PineconeVectorStore.from_existing_index(
     #documents=chunks,
