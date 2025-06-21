@@ -13,7 +13,7 @@ You're not alone — and that's why I built this free chatbot 💬
 ## 💡 Features
 
 - 📖 Answers based only on official CCMT documents
-- 💰 Gives exact fee breakdowns
+- 💰 Gives exact fee breakdowns and schedules .
 - 🔁 Explains counselling rounds and special scenarios
 - 🧠 Built using LangChain, Gemini AI, Pinecone & Streamlit
 - 🕒 Made in under 24 hours 💪
